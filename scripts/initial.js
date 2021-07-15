@@ -14,6 +14,7 @@ db.vault_categories.insertMany([
     { name: 'basic', contract_address: '0x89541E3b8e8B73c108744909eA11D506B4a8E6c7', symbol: 'hfUSDT' ,deposit: true, withdraw: true, depositMessage: '', withdrawMessage: '' },
     { name: 'basic', contract_address: '0x0AF9547974E056fca221F679DbBb7F8651407D7F', symbol: 'hfUSDC',deposit: true, withdraw: true, depositMessage: '', withdrawMessage: '' },
     { name: 'basic', contract_address: '0xEf9A15025C2ED048a67c5C8019A1101172EEB51c', symbol: 'hfDAI',deposit: true, withdraw: true, depositMessage: '', withdrawMessage: '' },
+    { name: 'other', contract_address: '0xD6Ce913C3e81b5e67a6b94d705d9E7cDdf073A7e', symbol: 'vipDVG', deposit: true, withdraw: true, depositMessage: '', withdrawMessage: '' },
 ]);
 
 db.stake_pool.insertMany([
@@ -191,6 +192,7 @@ db.vault_categories.insertMany([
     { name: 'basic', contract_address: '0x35880615bb18DA592FF0fEb0940ADE2c02249715', symbol: 'hfUSDT', deposit: true, withdraw: true, depositMessage: '', withdrawMessage: ''},
     { name: 'basic', contract_address: '0x68b1C860300c4f7d577f08D8B3c3AEe23887b280', symbol: 'hfUSDC', deposit: true, withdraw: true, depositMessage: '', withdrawMessage: ''},
     { name: 'basic', contract_address: '0x6D7e8fA90C1ffdC019d691BAFC18D6362FdEeCd7', symbol: 'hfDAI', deposit: true, withdraw: true, depositMessage: '', withdrawMessage: ''},
+    { name: 'other', contract_address: '0x3aa8e8B6D3562a1E7aCB0dddD02b27896C00c424', symbol: 'vipDVG', deposit: true, withdraw: true, depositMessage: '', withdrawMessage: '' },
 ]);
 
 db.xdvg_token.insert({
