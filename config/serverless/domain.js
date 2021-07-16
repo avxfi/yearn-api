@@ -173,12 +173,12 @@ const testContracts = {
     address: "0x3aa8e8B6D3562a1E7aCB0dddD02b27896C00c424",
     abi: abi.xDVGABIContract,
     tokenId: "xDVG",
-    lastMeasurement: 24819747,
+    lastMeasurement: 24819747, // Previously known as vipDVG or xDVG
   },
   DVG: {
-    address: "0xea9726eFc9831EF0499fD4Db4Ab143F15a797673",
-    abi: abi.DVGABIContract,
-    tokenId: "DVG",
+    address: "0x6639c554a299d58284e36663f609a7d94526fec0",
+    abi: abi.DVDABIContract,
+    tokenId: "DVD", // Previously known as DVD
   },
   daoStake: {
     address: "0xd8f59a99acfc597feb84914fef3769def87e7553",
@@ -362,9 +362,9 @@ const mainContracts = {
     lastMeasurement: 12670237, 
   },
   DVG: {
-    address: "0x51e00a95748dbd2a3f47bc5c3b3e7b3f0fea666c", 
-    abi: abi.xDVGABIContract,
-    tokenId: "DVG",
+    address: "0x51e00a95748dbd2a3f47bc5c3b3e7b3f0fea666c",  
+    abi: abi.DVDABIContract,
+    tokenId: "DVD", // Previously known as DVG
   },
   daoStake: {
     address: "0x8437a6bf9235fd003d50cd4024fa7ec6979208d5", 
