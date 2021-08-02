@@ -196,7 +196,7 @@ const testContracts = {
   DVD: {
     address: "0x6639c554a299d58284e36663f609a7d94526fec0",
     abi: abi.DVDABIContract,
-    tokenId: "",
+    tokenId: "daoventures",
   },
   vipDVD: {
     name: "vipDVD",
@@ -425,7 +425,7 @@ const mainContracts = {
   DVD: {
     address: "0x77dcE26c03a9B833fc2D7C31C22Da4f42e9d9582",
     abi: abi.DVDABIContract,
-    tokenId: "",
+    tokenId: "daoventures",
   },
   vipDVD: {
     name: "vipDVD",
